@@ -28,7 +28,7 @@ h2{
     text-align: center;
     font-size: 2em;
 }
-.date,.time{
+.date,.time,.timer{
     height: 50px;
     background-color:rgb(231, 210, 19);
     width: 7em;
@@ -40,4 +40,22 @@ h2{
     font-size: 1.5em;
     font-weight: 680;
     border: 1px groove rgb(200, 50, 0);
+}
+
+input[type = 'time']{
+    border-radius: 10px;
+    height: 2rem;
+    width: 54%;
+    font-size: 18px;
+    font-weight: 600;
+
+    
+}
+.start{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: orangered;
+    color:white;
+    padding: 5px;
+    margin: 3px;
 }
